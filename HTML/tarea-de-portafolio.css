@@ -42,3 +42,29 @@
  #titulo-blanco {
      color: white;
  }
+ 
+ #footer {
+     background-color: #f6f6f6;
+     min-height: 120px;
+     text-align: center;
+     display: flex;
+     align-items: stretch;
+ }
+ 
+ .img-footer {
+     max-height: 30px;
+ }
+ 
+ #Caja img {
+     max-height: 180px;
+ }
+ 
+ #Caja button {
+     background-color: #417D61;
+     color: white;
+     border-radius: 5px;
+ }
+ 
+ #Caja h1 {
+     color: white;
+ }
