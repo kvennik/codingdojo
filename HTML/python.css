@@ -1,6 +1,6 @@
 #fondo {
     background-color: #245076;
-    height: 1000px;
+    height: 500px;
 }
 
 #fondo h1 {
@@ -9,6 +9,7 @@
 }
 
 #menu {
+    margin-left: 10px;
     background-color: #487EAD;
     display: flex;
     color: white;
@@ -22,20 +23,23 @@
 
 #nav {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     margin-right: 200px;
 }
 
 #t-blanco {
     color: white;
     min-width: 400px;
+    text-align: justify;
 }
 
 #t-amarillo {
     color: yellow;
+    text-align: justify;
 }
 
 #menu-texto {
+    margin-top: 50px;
     max-width: 400px;
     display: flex;
 }
@@ -43,10 +47,18 @@
 #s-blanca {
     background-color: white;
     color: black;
+    display: flex;
+    align-items: stretch;
 }
 
-#footer {
-    display: inline;
+footer {
     font-size: 8px;
     background-color: #487EAD;
+    display: flex;
+    align-items: stretch;
+}
+
+footer h1 {
+    margin: 10px;
+    color: white;
 }
