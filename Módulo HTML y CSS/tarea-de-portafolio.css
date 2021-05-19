@@ -1,83 +1,87 @@
-     #yo {
-         height: 250px;
-         border-style: solid;
-         border-color: grey;
-     }
-     
-     #seccion-superior-gris {
-         background-color: #f6f6f6;
-         min-height: 120px;
-     }
-     
-     #fondo-morado {
-         background-color: #604B55;
-         min-height: 1200px;
-     }
-     
-     #frase {
-         float: right;
-     }
-     
-     #about {
-         position: absolute;
-         top: 180px;
-         right: 50px;
-         width: 300px;
-         height: 100px;
-         min-height: 400px;
-         background: linear-gradient(to bottom, grey 0%, grey 20%, rgb(255, 243, 243) 20%, rgb(194, 166, 166) 100%);
-         text-align: justify;
-         padding: 2%;
-         float: right;
-     }
-     
-     #seccion-superior {
-         padding: 50px;
-     }
-     
-     h1 {
-         color: black;
-     }
-     
-     #titulo-blanco {
-         color: white;
-     }
-     
-     #footer {
-         background-color: #f6f6f6;
-         min-height: 120px;
-         text-align: center;
-         display: flex;
-         align-items: stretch;
-     }
-     
-     .img-footer {
-         max-height: 30px;
-     }
-     
-     #Caja {
-         background-color: #DED1DD;
-         max-width: 350px;
-         margin-left: 50px;
-         margin-top: 200px;
-         border: 50px;
-     }
-     
-     #Caja img {
-         max-height: 180px;
-     }
-     
-     #Caja .logo {
-         max-height: 50px;
-     }
-     
-     #Caja button {
-         background-color: #417D61;
-         color: white;
-         border-radius: 5px;
-     }
-     
-     #Caja h1 {
-         color: white;
-         background-color: gray;
-     }
+ #yo {
+     height: 250px;
+     border-style: solid;
+     border-color: grey;
+ }
+
+ #seccion-superior-gris {
+     background-color: #f6f6f6;
+     min-height: 120px;
+ }
+
+ #fondo-morado {
+     background-color: #604B55;
+     min-height: 1200px;
+ }
+
+ #frase {
+     float: right;
+ }
+
+ #about {
+     position: absolute;
+     top: 180px;
+     right: 50px;
+     width: 300px;
+     height: 100px;
+     min-height: 400px;
+     background: linear-gradient(to bottom, grey 0%, grey 20%, rgb(255, 243, 243) 20%, rgb(194, 166, 166) 100%);
+     text-align: justify;
+     padding: 2%;
+     float: right;
+ }
+
+ #seccion-superior {
+     padding: 50px;
+ }
+
+ h1 {
+     color: black;
+ }
+
+ #nombre {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ #titulo-blanco {
+     color: white;
+ }
+
+ #footer {
+     background-color: #f6f6f6;
+     min-height: 120px;
+     text-align: center;
+     display: flex;
+     align-items: stretch;
+ }
+
+ .img-footer {
+     max-height: 30px;
+ }
+
+ #Caja {
+     background-color: #DED1DD;
+     max-width: 350px;
+     margin-left: 50px;
+     margin-top: 200px;
+     border: 50px;
+ }
+
+ #Caja img {
+     max-height: 180px;
+ }
+
+ #Caja .logo {
+     max-height: 50px;
+ }
+
+ #Caja button {
+     background-color: #417D61;
+     color: white;
+     border-radius: 5px;
+ }
+
+ #Caja h1 {
+     color: white;
+     background-color: gray;
+ }
