@@ -9,13 +9,29 @@
      #amarillo {
          background-color: #FFFE9B;
      }
-     /*   @media only screen and (max-width:480px) {
+     
+     
+    @media (min-width: 320px) and (max-width: 480px)  {
          #PC,
          #Tablet {
              display: none;
          }
      }
      
-     @media only screen and (min-width:481px) {}
+     @media (min-width: 768px) and (max-width: 1024px){
+          #PC,
+         #CEL {
+             display: none;
+         }
+          
+          
+     }
      
-     @media only screen and (min-width:1024px) {}*/
+     @media (min-width: 1281px) {
+          #CEL,
+         #Tablet {
+             display: none;
+         }
+          
+          
+     }
