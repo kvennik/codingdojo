@@ -12,7 +12,7 @@
  #fondo-morado {
     
      background: radial-gradient(#6F5964, #1D0D11);
-     min-height: 1800px;
+     min-height: 1000px;
  }
 
  #frase {
@@ -125,6 +125,8 @@ h4 {
  display: inline-block;
  vertical-align: top;
 }
+
+
 #Caja2{
  margin-left: 50px;
  min-height: 300px;
@@ -146,6 +148,7 @@ p {
 
 .Caja{
  display: inline-block;
+ width: 30%;
 }
 
 #contenedor {
