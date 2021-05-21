@@ -33,29 +33,6 @@
     background-color: yellow;
  
   }    
-      /*  
-        #subcontents {
-            min-height: 30%;
-            width: 20%;
-            margin: 10px;
-            background-color: yellow;
-            
-        }
-        
-        #subcontents1 {
-            min-height: 30%;
-            width: 30%;
-            margin: 10px;
-            background-color: yellow;
-        }
-        
-        #subcontents2 {
-            min-height: 100px;
-            width: 30%;
-            margin: 10px;
-            background-color: yellow;
-        }
-        */
         #advertisement {
             min-height: 80px;
             width: 90%;
@@ -63,36 +40,6 @@
             background-color: purple;
         }
         
- 
-       /*  
-        #navigation {
-            
-            display:inline-block;
-            margin-left: 50px;
-        
-        }
-
-   @media (min-width: 320px) and (max-width: 1024px){
-       
-       
-        #subcontents, #subcontents1{
-
-    display: block;
-    min-width: 20%;
-   */
-    
-             
-         }
-         
-         #advertisement{
-             
-             width:90%;
-         }
-           
-    
-         
-     }
-     
     
       @media only screen and (min-width: 480px) and (max-width: 1023px){
           #subcontents, #subcontents1{
@@ -123,16 +70,12 @@
      }
    
    
-  
-  
-      
-     
  @media only screen and (min-width: 1024px) {
          
         #subcontents,
         #subcontents1,
         #subcontents2,
-        #main_content {
+        #main_content,#navigation {
            
             display: inline-block;
             vertical-align:top;
@@ -167,8 +110,6 @@
          }
           
 
-   
-  
   
   #main_content
  {
